@@ -1,0 +1,41 @@
+# SmartInvest Discord Bot Dependencies
+
+# Discord Bot Framework
+discord.py==2.3.2
+
+# Financial Data
+finnhub-python>=2.4.0
+
+# Data Processing
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+
+# Environment Management
+python-dotenv==1.0.0
+
+# Machine Learning & NLP
+transformers>=4.35.0
+torch>=2.1.0
+xgboost>=2.0.0
+scikit-learn>=1.3.0
+# ta-lib==0.4.28  # Requires C dependencies, install separately
+
+# Sentiment Analysis (FinBERT)
+# Note: transformers and torch above are required for FinBERT
+
+# News API
+newsapi-python==0.2.7
+
+# HTTP Requests
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Timezone handling
+pytz>=2023.3
+
+# Visualization (for backtesting)
+matplotlib>=3.8.0
